@@ -3,5 +3,5 @@ created from https://cucumber.io/docs/guides/10-minute-tutorial/
 
 run specific test : mvn clean test -Dcucumber.options="--name (Scenario1|Scenario2)"
 
-https://php.net/manual/en/regexp.reference.escape.php
-spaces must be replaced by ‘\040’. For example “Scenario 1” need to be replaced be “Scenario\0401”.  
+All non [a-zA-Z] characters need to be replace by their {ascii code}[http://www.asciitable.com/], for example
+spaces must be replaced by ‘\040’ :  “Scenario A” need to appear as “Scenario\040A”.  
