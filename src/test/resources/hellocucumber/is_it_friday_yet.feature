@@ -11,12 +11,8 @@ Feature: Is it Friday yet
     When I ask whether it's Friday yet
     Then I should be told "TGIF"
 
-  Scenario: Special Characters +=-!#
+  Scenario: Special Characters +=-!#?^.@$%*()_-112345767890
     Given today is Friday
     When I ask whether it's Friday yet
     Then I should be told "TGIF"
 
-  Scenario: свинка пепа
-    Given today is Friday
-    When I ask whether it's Friday yet
-    Then I should be told "TGIF"
