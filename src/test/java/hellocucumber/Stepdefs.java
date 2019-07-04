@@ -31,4 +31,20 @@ public class Stepdefs {
     public void i_should_be_told(String expectedAnswer) {
         assertEquals(expectedAnswer, actualAnswer);
     }
+
+
+    @Given("^simple given$")
+    public void simple_given() {
+
+    }
+
+    @When("^simple when$")
+    public void simple_when() {
+
+    }
+
+    @Then("^simple then$")
+    public void simple_then() {
+
+    }
 }
