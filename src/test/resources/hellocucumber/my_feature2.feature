@@ -1,5 +1,5 @@
-Feature: feature1
-  Simple
+Feature: My Feature2
+  Simple2
 
   Scenario: Simple Scenario
     Given simple given
